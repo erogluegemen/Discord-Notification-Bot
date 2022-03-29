@@ -10,7 +10,7 @@ load_dotenv()
 intents= discord.Intents.all()
 client = discord.Client(intents=intents)
 
-word_list = ["IEEE", "CS"]
+word_list = ["IEEE", "CS"] # Bildirim gelmesi istenilen kelimeler.
 
 
 @client.event
